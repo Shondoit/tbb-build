@@ -11,5 +11,6 @@ $base/7za a $OUTPUT \
 	$base/7za-license.txt \
 	$base/msysgit-unpack \
 	$base/profile \
-	$base/sources \
+	$base/cmake-source \
+	$base/msysgit-source \
 	$base/vimrc
