@@ -1,0 +1,7 @@
+tbb-build will deploy necessary packages to start hacking on
+the Tor Browser Bundle. All that is needed is a minimal MinGW install.
+
+It will download and deploy the following packages:
+	msys-base msys-wget msysgit mingw-dtk
+	autoconf automake libtool
+	base gcc-core gcc-g++ 

@@ -1,0 +1,3 @@
+GITPKG=PortableGit-1.7.10-preview20120409.7z
+GITURI=http://msysgit.googlecode.com/files/$GITPKG
+GITSHA=ab285e4f1ca3527deb3cf95167d8381e4c28bc90
