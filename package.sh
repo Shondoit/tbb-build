@@ -4,13 +4,8 @@ OUTPUT=$base/release/tbb-build-$VER.zip
 
 mkdir -p $base/release
 rm -f $OUTPUT
-$base/7za a $OUTPUT \
-	$base/install.sh \
-	$base/upgrade.sh \
-	$base/7za.exe \
-	$base/7za-license.txt \
-	$base/msysgit-unpack \
-	$base/profile \
-	$base/cmake-source \
-	$base/msysgit-source \
-	$base/vimrc
+$base/contrib/7za a $OUTPUT \
+	$base/contrib \
+	$base/install.cmd \
+	$base/README \
+	$base/version

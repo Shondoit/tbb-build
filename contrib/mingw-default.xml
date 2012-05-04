@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profile project="MinGW" application="mingw-get">
+  <repository uri="http://prdownloads.sourceforge.net/mingw/%F.xml.lzma?download" />
+  <system-map id="default">
+    <sysroot subsystem="mingw32" path="%R" />
+    <sysroot subsystem="MSYS" path="%R/msys/1.0" />
+  </system-map>
+</profile>
