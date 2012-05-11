@@ -85,4 +85,5 @@ share/git-core/*
 share/git-gui/*
 share/gitk/*
 share/gitweb/*
+share/vim/vim73/vim.exe
 ssl/*
