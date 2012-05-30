@@ -1,0 +1,3 @@
+LIBXSLTPKG=libxslt-1.1.26.win32.zip
+LIBXSLTURI=http://www.zlatkovic.com/pub/libxml/$LIBXSLTPKG
+#LIBXSLTSHA=

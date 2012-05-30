@@ -15,10 +15,16 @@ COPY /Y %base%\contrib\mingw-default.xml %base%\var\lib\mingw-get\data\profile.x
 
 %base%\bin\mingw-get.exe install ^
 	mingw-get base msys-base msys-wget mingw-dtk ^
-	autoconf automake libtool gcc-core gcc-g++
+	msys-man autoconf automake libtool gcc-core gcc-g++
 
 SET PATH=%PATH%;%~dp0msys\1.0\bin
 %base%\msys\1.0\bin\bash.exe %base%\contrib\msysgit-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\asciidoc-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\docbook-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\libxml2-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\libxslt-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\libiconv-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\zlib-deploy.sh
 %base%\msys\1.0\bin\bash.exe %base%\contrib\cmake-deploy.sh
 
 COPY /Y %base%\contrib\profile %base%\msys\1.0\etc\profile

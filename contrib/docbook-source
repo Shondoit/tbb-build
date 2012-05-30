@@ -1,0 +1,3 @@
+DOCBOOKPKG=docbook-xml-4.5.zip
+DOCBOOKURI=http://www.docbook.org/xml/4.5/$DOCBOOKPKG
+#DOCBOOKSHA=

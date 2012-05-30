@@ -1,0 +1,3 @@
+ASCIIDOCPKG=asciidoc-8.6.7.zip
+ASCIIDOCURI=http://downloads.sourceforge.net/asciidoc/$ASCIIDOCPKG
+#ASCIIDOCSHA=

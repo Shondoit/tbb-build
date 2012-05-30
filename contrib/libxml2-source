@@ -1,0 +1,3 @@
+LIBXMLPKG=libxml2-2.7.8.win32.zip
+LIBXMLURI=http://www.zlatkovic.com/pub/libxml/$LIBXMLPKG
+#LIBXMLSHA=
