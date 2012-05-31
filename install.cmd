@@ -26,6 +26,7 @@ SET PATH=%PATH%;%~dp0msys\1.0\bin
 %base%\msys\1.0\bin\bash.exe %base%\contrib\libiconv-deploy.sh
 %base%\msys\1.0\bin\bash.exe %base%\contrib\zlib-deploy.sh
 %base%\msys\1.0\bin\bash.exe %base%\contrib\cmake-deploy.sh
+%base%\msys\1.0\bin\bash.exe %base%\contrib\nsis-deploy.sh
 
 COPY /Y %base%\contrib\profile %base%\msys\1.0\etc\profile
 COPY /Y %base%\contrib\vimrc %base%\msys\1.0\share\vim\vimrc

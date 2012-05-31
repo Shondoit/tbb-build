@@ -1,0 +1,3 @@
+NSISPKG=nsis-2.46.zip
+NSISURI=http://downloads.sourceforge.net/nsis/$NSISPKG
+#NSISSHA=
